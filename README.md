@@ -13,7 +13,7 @@ Here is the current status, I will send an email once I finish things up and hop
   - The challenge is to get GT and segmentation in the form of segment info for training usage in  Part 3.
 
 ### Part 3:
-* This was a real problem when the assignment was published, and like you mentioned, most of them stop at segmentation. But, over the last month, actually I have worked only over the last month, I know its almost 2 months that was given for this capstone, there have been a lot of updates.
+* This was a real problem when the assignment was published, and like you mentioned, most of them stop at segmentation. But, over the last month, *(actually I have worked only over the last month)* I know its almost 2 months that was given for this capstone, there have been a lot of updates, like hugging face notebooks by Neils. They are helpful, easy and fix a lot of known issues with DETR finetuning.
   - First started with the link that was given in S14, about tweaking the code, was a handsome full to understand DETR for OD.
   - Reading multiple times, and finally getting the notebook to work *( with incorrect pytorch versions, updates and what not)*, I progressed to understand that BB detection is important and PO *(in DETR's case, cannot be performed without a good OD/BB detection)*. Also, PO quality becomes an add-on over the quality of OD. And since the problem statement stated that we need to add stuff and not other things from coco class, it isn't straight forward anymore. *(finding for an hack, exploring datasets, all of this makes sure that the concept are understood fully to get things to work)*. 
   - Now with the classic issue of finetuning, the issue was to read issues and understand:
